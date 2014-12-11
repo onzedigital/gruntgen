@@ -1,0 +1,14 @@
+  // =============================================
+  // Jekyll
+  // repo: https://github.com/dannygarcia/grunt-jekyll
+  config.jekyll = {
+    options: {
+      bundleExec: true
+    },
+    dist: {
+      options: {
+        dest: '_site/',
+        config: '_config.yml'
+      }
+    }
+  };
